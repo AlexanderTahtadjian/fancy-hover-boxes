@@ -42,3 +42,9 @@ section {
   filter: grayscale(100%);
   transition: all 0.2s linear;
 }
+
+.hover-box:hover img,
+.hover-box:focus img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
